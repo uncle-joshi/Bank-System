@@ -1,8 +1,8 @@
-Bank System
+# Bank System
 
 A simple C++ console-based banking system that allows users to create accounts, view account details, withdraw, deposit, and pay bills.
 
-Features
+# Features
 
 User authentication with login credentials
 
@@ -16,7 +16,7 @@ Pay bills (Gas, Electricity, Water)
 
 Data stored in text files for persistence
 
-Installation
+# Installation
 
 Clone the repository:
 
@@ -30,11 +30,11 @@ Compile the program using g++:
 
 g++ -o bank_system bank_system.cpp
 
-Run the program:
+# Run the program:
 
 ./bank_system
 
-Usage
+# Usage
 
 Run the program and log in.
 
@@ -52,7 +52,7 @@ Pay bills
 
 Follow the on-screen instructions for each operation.
 
-File Structure
+# File Structure
 
 bank_system.cpp - The main source code file.
 
@@ -60,7 +60,7 @@ login_db.txt - Stores login credentials.
 
 account_db.txt - Stores account details.
 
-Notes
+# Notes
 
 The system uses text files (login_db.txt and account_db.txt) to store user information.
 
